@@ -1,4 +1,4 @@
 export default function FooterStatus() {
-  return <div>FooterStatus</div>;
+  return <footer className="footer-status">Footer Status</footer>;
 }
 

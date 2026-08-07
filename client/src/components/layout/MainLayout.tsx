@@ -1,27 +1,27 @@
-import Sidebar from "./Sidebar";
 import TopBar from "./TopBar";
+import Sidebar from "./Sidebar";
 import AssistantPanel from "./AssistantPanel";
 import CommandBar from "./CommandBar";
 import FooterStatus from "./FooterStatus";
 
 export default function MainLayout() {
-  return (
-    <div>
-      <TopBar />
+    return (
+        <div className="app-shell">
 
-      <div>
-        <Sidebar />
+            <TopBar />
 
-        <main>
-          Workspace
-        </main>
+            <Sidebar />
 
-        <AssistantPanel />
-      </div>
+            <main className="workspace">
+                Workspace
+            </main>
 
-      <CommandBar />
+            <AssistantPanel />
 
-      <FooterStatus />
-    </div>
-  );
+            <CommandBar />
+
+            <FooterStatus />
+
+        </div>
+    );
 }

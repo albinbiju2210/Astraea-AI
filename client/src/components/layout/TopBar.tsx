@@ -1,4 +1,4 @@
 export default function TopBar() {
-  return <div>TopBar</div>;
+  return <header className="topbar">ASTRAEA</header>;
 }
 

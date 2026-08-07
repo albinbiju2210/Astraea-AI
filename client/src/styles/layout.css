@@ -1,0 +1,66 @@
+.app-shell{
+    width:100%;
+    min-height:100vh;
+
+    display:grid;
+
+    grid-template-columns:260px 1fr 340px;
+
+    grid-template-rows:
+        70px
+        1fr
+        70px
+        40px;
+
+    grid-template-areas:
+        "topbar topbar topbar"
+        "sidebar workspace assistant"
+        "command command command"
+        "footer footer footer";
+}
+
+/* Grid Areas */
+
+.topbar{
+    grid-area:topbar;
+}
+
+.sidebar{
+    grid-area:sidebar;
+}
+
+.workspace{
+    grid-area:workspace;
+}
+
+.assistant-panel{
+    grid-area:assistant;
+}
+
+.command-bar{
+    grid-area:command;
+}
+
+.footer-status{
+    grid-area:footer;
+}
+
+/* Temporary Debug Styling */
+
+.topbar,
+.sidebar,
+.workspace,
+.assistant-panel,
+.command-bar,
+.footer-status{
+
+    border:1px solid var(--border);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:16px;
+}

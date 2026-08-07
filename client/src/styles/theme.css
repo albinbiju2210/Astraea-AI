@@ -1,0 +1,29 @@
+:root {
+
+  /* Backgrounds */
+  --bg-primary: #0A0B10;
+  --bg-secondary: #11131A;
+  --bg-panel: #151822;
+
+  /* Text */
+  --text-primary: #F5F7FA;
+  --text-secondary: #9CA3AF;
+
+  /* Accent */
+  --accent: #4F8CFF;
+  --accent-hover: #72A5FF;
+
+  /* Borders */
+  --border: rgba(255,255,255,.08);
+
+  /* Shadows */
+  --shadow-glow: 0 0 25px rgba(79,140,255,.15);
+
+  /* Radius */
+  --radius-lg: 18px;
+  --radius-md: 12px;
+  --radius-sm: 8px;
+
+  /* Animation */
+  --transition: .25s ease;
+}

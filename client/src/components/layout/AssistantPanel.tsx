@@ -1,4 +1,4 @@
 export default function AssistantPanel() {
-  return <div>AssistantPanel</div>;
+  return <aside className="assistant-panel">Assistant Panel</aside>;
 }
 

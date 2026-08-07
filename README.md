@@ -1,9 +1,20 @@
-# Astraea AI
+## Progress
 
-Astraea is an AI-first platform with a React frontend and ASP.NET Core backend.
+### ✅ Day 1
+- Project initialization
+- React + Vite setup
+- ASP.NET Core backend
+- Folder architecture
+- Documentation
+- GitHub repository
 
-## Structure
-
-- `client/` — React application
-- `server/` — ASP.NET Core API
-- `docs/` — project documentation
+### ✅ Day 2
+- Application shell
+- React component architecture
+- Main layout
+- Top bar
+- Sidebar
+- Assistant panel
+- Command bar
+- Footer status
+- Debugging and runtime error resolution

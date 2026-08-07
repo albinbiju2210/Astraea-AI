@@ -1,4 +1,4 @@
 export default function CommandBar() {
-  return <div>CommandBar</div>;
+  return <div className="command-bar">Command Bar</div>;
 }
 
