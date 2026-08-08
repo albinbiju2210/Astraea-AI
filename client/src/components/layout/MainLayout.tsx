@@ -13,7 +13,11 @@ export default function MainLayout() {
             <Sidebar />
 
             <main className="workspace">
-                Workspace
+                <div className="astraea-wave">
+                    <div className="wave wave-one"></div>
+                    <div className="wave wave-two"></div>
+                    <div className="wave wave-three"></div>
+                </div>
             </main>
 
             <AssistantPanel />

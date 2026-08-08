@@ -1,0 +1,10 @@
+@keyframes wave-drift {
+    0%,
+    100% {
+        transform: translateX(-4%) scaleY(1);
+    }
+
+    50% {
+        transform: translateX(4%) scaleY(1.35);
+    }
+}

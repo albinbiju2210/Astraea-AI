@@ -26,4 +26,20 @@
 
   /* Animation */
   --transition: .25s ease;
+
+  /* Ambient Environment */
+
+--bg-deep: #06070B;
+
+--ambient-blue:
+    rgba(77, 141, 255, 0.08);
+
+--ambient-blue-strong:
+    rgba(77, 141, 255, 0.14);
+
+--surface-glass:
+    rgba(255, 255, 255, 0.04);
+
+--surface-glass-hover:
+    rgba(255, 255, 255, 0.07);
 }

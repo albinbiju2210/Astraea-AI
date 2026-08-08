@@ -16,9 +16,8 @@ body,
     height:100%;
 }
 
-body{
-    font-family:Inter,system-ui,sans-serif;
-    background:var(--bg-primary);
-    color:var(--text-primary);
-    overflow:hidden;
+body {
+    background: var(--bg-deep);
+    color: var(--text-primary);
+    overflow: hidden;
 }
