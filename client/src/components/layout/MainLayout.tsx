@@ -1,31 +1,24 @@
 import TopBar from "./TopBar";
 import Sidebar from "./Sidebar";
+import Workspace from "./Workspace";
 import AssistantPanel from "./AssistantPanel";
 import CommandBar from "./CommandBar";
 import FooterStatus from "./FooterStatus";
 
 export default function MainLayout() {
-    return (
-        <div className="app-shell">
+  return (
+    <div className="app-shell">
+      <TopBar />
 
-            <TopBar />
+      <Sidebar />
 
-            <Sidebar />
+      <Workspace />
 
-            <main className="workspace">
-                <div className="astraea-wave">
-                    <div className="wave wave-one"></div>
-                    <div className="wave wave-two"></div>
-                    <div className="wave wave-three"></div>
-                </div>
-            </main>
+      <AssistantPanel />
 
-            <AssistantPanel />
+      <CommandBar />
 
-            <CommandBar />
-
-            <FooterStatus />
-
-        </div>
-    );
+      <FooterStatus />
+    </div>
+  );
 }
