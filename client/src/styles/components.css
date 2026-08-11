@@ -616,3 +616,21 @@
 .footer-spacer {
     flex: 1;
 }
+
+/*command bar input focus state*/
+.command-input input {
+    flex: 1;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+.command-input input::placeholder {
+    color: #8b8f99;
+    opacity: 1;
+}
