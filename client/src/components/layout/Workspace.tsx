@@ -1,3 +1,5 @@
+import { workspaceState } from "../../store/workspaceStore";
+
 export default function Workspace() {
   return (
     <main className="workspace">
@@ -17,12 +19,34 @@ export default function Workspace() {
         <div className="workspace-stats">
           <div className="stat-card">
             <span>Projects</span>
-            <strong>0 active</strong>
+
+            <strong>
+              {workspaceState.projects.length} active
+            </strong>
+
+            {workspaceState.projects.length > 0 && (
+              <small>
+                {workspaceState.projects[
+                  workspaceState.projects.length - 1
+                ]}
+              </small>
+            )}
           </div>
 
           <div className="stat-card">
             <span>Tasks</span>
-            <strong>0 pending</strong>
+
+            <strong>
+              {workspaceState.pendingTasks.length} pending
+            </strong>
+
+            {workspaceState.pendingTasks.length > 0 && (
+              <small>
+                {workspaceState.pendingTasks[
+                  workspaceState.pendingTasks.length - 1
+                ]}
+              </small>
+            )}
           </div>
 
           <div className="stat-card">
